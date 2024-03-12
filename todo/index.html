@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo!</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        #listy{
+            max-width:600px;
+            margin:100px auto;
+            background-color: #fff;
+            padding: 50px;
+            border-radius:8px;
+            box-shadow: 0 0 30px rgba(0,0,0,0.01)
+        }
+
+        ul {
+            list-style-type:hiragana;
+        }
+
+        li::marker {
+            color:#aaa;
+        }
+
+        li{
+            padding:10px;
+            border-top: 1px solid #ccc;
+        }
+
+        #listy>ul>li:first-child{
+            border-top: none;
+        }
+
+        ul ul li {
+            border-top: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="listy">
+        <h1>to-do for meadow.naps!</h1>
+        <ul>
+            <li>work on art!!!</li>
+            <li>mn.com</li>
+            <ul>
+                <li>homepage: p5js</li>
+                <li>journal: baby's breath</li>
+            </ul>
+            <li>(in progress) pfp / azalea 2. by: _nyazuna_</li>
+            <li>@mn</li>
+            <ul>
+                <li>reshare TA post: azalea's classmates</li>
+                <li>story: pony IRL (stickers), pony keychain moto</li>
+                <ul>
+                    <li>keychains: @asagurble</li>
+                    <li>twilight peek: taurson</li>
+                    <li>stained glass: lumithekirin</li>
+                    <li>power fluttershy: sophiescruggs</li>
+                    <li>check redbubble for outside stickers</li>
+                </ul>
+            </ul>
+            <li>future items:</li>
+            <ul>
+                <li>scout: azalea & friend?</li>
+                <li>scout: azalea reading garden book</li>
+            </ul>
+        </ul>
+    </div>
+</body>
+</html>
